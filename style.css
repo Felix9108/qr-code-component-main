@@ -1,0 +1,74 @@
+/* Feel free to remove these styles or customise in your own stylesheet 👍  */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+*{
+  font-family: Outfit, sans-serif;
+}
+body{
+  margin:0;
+}
+
+.contain{
+  background: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.contain-item{
+  background: #fff;
+  color: #000;
+  width: 20%;
+  margin: 5px;
+  text-align:center ;
+  border-radius: 1.2rem;
+  
+} 
+.contain-img{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.contain-item h2{
+  color: var(--dark-blue);
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.contain-item p{
+  font-size: 15px;
+  color: var(--grayish-blue);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+footer.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 20px;
+  width: 100%;
+}
